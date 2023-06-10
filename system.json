@@ -1,0 +1,25 @@
+{
+    "name": "WH40K_Deathwatch",
+    "title": "Warhammer 40k Deathwatch",
+    "description": "A system to play Warhammer 40k Deathwatch games",
+    "author": "Ogen",
+    "version": 0.01,
+    "minimumCoreVersion": "10.291",
+    "compatibleCoreVersion": "10.291",
+    "esmodules": [
+        "deathwatch.js"
+    ],
+    "styles": [
+        "deathwatch.css"
+    ],
+    "packs": [
+
+    ],
+    "languages": [
+
+    ],
+    "gridDistance": 5,
+    "gridUnits": "m",
+    "primaryTokenAttribute": "wounds",
+    "initiative": "1d10 + @speed"
+}
